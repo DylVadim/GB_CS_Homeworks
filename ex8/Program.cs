@@ -14,9 +14,8 @@ while (Count <= Num)
 {
     if(Count % 2 == 0)
     {
-        Console.WriteLine($"{Num} -> {Count},");
+        Console.WriteLine($"{Num} -> {Count}");
         Count++;
-
     }
     else
     {
