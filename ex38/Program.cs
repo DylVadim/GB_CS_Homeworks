@@ -22,7 +22,8 @@ double [] GenerateDoubleArray(int min, int max, int length)
 
 void PrintArray(double[] array)                       
 {
-     Console.WriteLine(@"[{0}]", string.Join("; ", array)); 
+    Console.WriteLine("Массив вещественных чисел:");
+    Console.WriteLine(@"[{0}]", string.Join("; ", array)); 
 }                                         
 
 
@@ -45,5 +46,6 @@ void GetDifference(double [] array)
            }
     }
     diff = max - min ;
-    Console.WriteLine($" => {max} - {min} = {diff}.");
+    Console.WriteLine("Разница между максимальным и минимальным числом:");
+    Console.WriteLine($" Мак: {max} - Мин: {min} = {diff}.");
 }
